@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+body{
+    width: 100%;
+    background-color: #f0f2f5;
+}
+
+main {
+     margin: 150px auto;
+     max-width: 100%;
+     width: 1200px;
+     height: 80vh;
+}
+
+.container {
+    display: flex;
+}
+
+h2 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    margin-left: 30px;
+    width: 500px;
+}
+p{
+    color: #1877f2;
+}
+
+.logo {
+    height: 106px;
+}
+
+.fb-logo{
+    margin: 30px 0 0 30px;
+}
+/*
+.container, .fb-logo{
+    border: 1px solid black;
+}*/
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 396px;
+    height: 350px;
+    padding: 20px 0 28px;
+    margin-left: 140px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);;
+    text-align: center;
+}
+
+input[type="text"],input[type="password"]{
+    background-color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    border: 1.5px solid rgb(200, 200, 200);
+    padding: 15px 0;
+    padding-left: 10px;
+    border-radius: 5px;
+    text-align: left;
+    color:  #1d2129;;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+}
+input[type="password"]{
+    margin-top: 15px;
+}
+
+
+hr{
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 90%;
+}
+button{
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    margin: auto;
+    width: 90%;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+a {
+    margin-top: 20px;
+}
+
+.login {
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.create-nw{
+    margin-top: 18px;
+    padding: 15px 0;
+    width: 50%;
+    background-color: #42b72a;
+    border-color: #42b72a;
+}
+
+.crt-pg {
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 180px;
+    padding-top: 15px;
+}
+.crt-pg-link {
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
